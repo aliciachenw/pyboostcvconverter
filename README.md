@@ -13,6 +13,8 @@ Compatibility
 This code is compatible with OpenCV 2.X, 3.X, and 4.X.
 This code supports Python 2.7 and Python 3.X. => You can pick one by passing `-DPYTHON_DESIRED_VERSION=3.X` or `=2.X` to cmake.
 
+Set specific cuda path: passing -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-X.X
+
 Disclaimer
 -----------------
 Certain things in the code might be excessive/unneeded, so if you know something is not needed, please make a pull request with an update. Also, conversion errors aren't handled politically correct (i.e. just generates an empty matrix), please let me know if that bothers you or you'd like to fix that.
